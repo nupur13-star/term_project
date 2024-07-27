@@ -1,0 +1,176 @@
+body {
+    background: #C4D0DB9C;
+    margin: 0;
+    padding: 0;
+    font-family: Times New Roman, serif;
+    box-sizing: border-box;
+}
+
+header {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+header img{
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 20px;
+    background: #C4D0DB9C;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    font-size: 22px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #333;
+    color: black;
+}
+
+nav ul .active {
+    background: black;
+    padding: 5px 15px 5px;
+    color: white;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+
+nav .logo {
+    height: 130px;
+    width: 200px;
+}
+/* Main content styling */
+main {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 40px;
+}
+
+/* Form styling */
+form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+form fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form legend {
+    font-size: 1.5rem;
+    color: #7a7777;
+}
+
+form ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: #7a7777;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    /* margin-bottom: 5px; */
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 100px;
+}
+
+/* form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+} */
+
+form button[type="submit"],
+form button[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: white;
+    cursor: pointer;
+}
+
+form button[type="reset"] {
+    background-color: #ccc;
+}
+
+form button[type="submit"]:hover,
+form button[type="reset"]:hover {
+    background-color: #999;
+}
+
+form button[type="reset"]:hover {
+    background-color: #999;
+}
+
+.centered-text{
+    text-align: center;
+
+    color: #3d9da5;
+    font: 900;
+    font-size: 0.8rem; /* Reduced font size */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    background: black;
+    color: white;
+}
+
+footer a {
+    color: #83b4c8;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

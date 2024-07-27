@@ -4,41 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>circular saws</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>Circular Saws - Contact Us</title>
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 <body>
-    
 
     <nav class="nav">
         <a href="./index.html"><img class="logo" src="./images/circular-saw-logo.png" alt="circular saw Logo"></a>
         <ul>
             <li><a class="active" href="./index.html">Home</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./team.html">Our Team</a></li>
-            <li><a href="./specials.html">Specials</a></li>
-            <li><a href="./training.html">Training</a></li>
-            <li><a href="./media.html">Media</a></li>
-            <li><a href="./faqs.html">FAQs</a></li>
-            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a class="active" href="./about.html">About</a></li>
+            <li><a class="active" href="./team.html">Our Team</a></li>
+            <li><a class="active" href="./specials.html">Specials</a></li>
+            <li><a class="active" href="./training.html">Training</a></li>
+            <li><a class="active" href="./media.html">Media</a></li>
+            <li><a class="active" href="./faqs.html">FAQs</a></li>
+            <li><a class="active" href="./contact.html">Contact Us</a></li>
         </ul>
     </nav>
 
     <header>
-       <img src="./images/SAWS-WHICH-SAVES-THE-TIME.png" alt="circular saws banner">
+       <img src="./images/SAWS-WHICH-SAVES-THE-TIME.png" alt="Circular Saws Banner">
     </header>
 
-    <main>
-        <h1>Contact Us</h1>
-        <p>Have a question or feedback? We'd love to hear from you! Contact us using the form below:</p>
-        <!-- Include contact form here -->
+    <main class="container">
+        <section id="page-name">
+           <center> <h1><u>Contact Us</u></h1> </center>
+            
+        </section>
+        <section id="contact-form">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <ol>
+                        <li>Fill out the form below to get in touch with us.</li>
+                        <li>Provide as much detail as possible to help us assist you better.</li>
+                    </ol>
+
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required autofocus>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div>
+                        <label for="inquiry">Inquiry Type:</label>
+                        <select id="inquiry" name="inquiry" required>
+                            <option value="">Select an option</option>
+                            <option value="product">Product Inquiry</option>
+                            <option value="support">Customer Support</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="contact-method">
+                        <label>Preferred Contact Method:</label>
+                        <input type="radio" id="contact-email" name="contact_method" value="email" required>
+                        <label for="contact-email">Email</label>
+                        <input type="radio" id="contact-phone" name="contact_method" value="phone" required>
+                        <label for="contact-phone">Phone</label>
+                    </div>
+                    <div>
+                        <label for="newsletter">Subscribe to our newsletter:</label>
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    </div>
+                    <div>
+                        <button type="submit">Submit Request</button>
+                        <button type="reset">Reset Form</button>
+                    </div>
+                  <div class="centered-text">
+                    <center>
+                        <p>Any Question? <br> Want Meet Us ?<br> Book Your Meetings With Us For The Best Assistance.</p>
+                    </center>
+                  </div>
+                </fieldset>
+            </form>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; Copyright 2024. All Rights Reserved.<br> 
+        <p>&copy; 2024 Circular Saws. All Rights Reserved.<br> 
             <a href="mailto:info@circularsaws.com">Request information</a><br>
             Nupur c0937308</p>
     </footer>
+
 </body>
 </html>
+
 
