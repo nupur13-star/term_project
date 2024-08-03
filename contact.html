@@ -35,7 +35,7 @@
         <section id="contact-form">
             <form action="#" method="post">
                 <fieldset>
-                    <legend>Contact Information</legend>
+                    <center><legend>Contact Information</legend></center>
                     <ol>
                         <li>Fill out the form below to get in touch with us.</li>
                         <li>Provide as much detail as possible to help us assist you better.</li>
@@ -67,17 +67,27 @@
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" placeholder="Your Message" required></textarea>
                     </div>
+                    <label for="message">Preferred Contact method :</label>
                     <div class="contact-method">
-                        <label>Preferred Contact Method:</label>
-                        <input type="radio" id="contact-email" name="contact_method" value="email" required>
-                        <label for="contact-email">Email</label>
-                        <input type="radio" id="contact-phone" name="contact_method" value="phone" required>
-                        <label for="contact-phone">Phone</label>
+                        
+                        <label for="email">
+                            <input type="radio" id="email" name="preferred_contact" value="email">
+                            Email
+                        </label>
                     </div>
-                    <div>
-                        <label for="newsletter">Subscribe to our newsletter:</label>
-                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <div class="contact-method">
+                        <label for="phone">
+                            <input type="radio" id="phone" name="preferred_contact" value="phone">
+                            Phone
+                        </label>
                     </div>
+
+                    <div class="newsletter">
+                        
+                        <label for="newsletter">Subscribe to our newsletter:</label><input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        
+                    </div>
+                    
                     <div>
                         <button type="submit">Submit Request</button>
                         <button type="reset">Reset Form</button>

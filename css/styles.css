@@ -62,7 +62,7 @@ main {
 }
 
 h1 {
-    color: #000099;
+    color: #0e0e3b;
     margin: 0;
 }
 main img{
@@ -74,13 +74,15 @@ footer {
     text-align: center;
     padding: 35px 0px;
     font-size: 14px;
-    background: black;
-    color: white;
+    background: rgb(0, 0, 0);
+    color: rgb(242, 230, 230);
     line-height: 25px;
 }
 
 footer p{
     margin: 0;
+    color: #fffcfc;
+    
 }
 h2 {
 	color: #000099;

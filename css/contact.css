@@ -122,10 +122,18 @@ form textarea {
     height: 100px;
 }
 
-/* form input[type="radio"],
-form input[type="checkbox"] {
-    margin-right: 10px;
-} */
+.contact-method {
+    display: flex;
+    align-items: center;
+}
+.contact-method label {
+    margin-left: 8px;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+}
 
 form button[type="submit"],
 form button[type="reset"] {
